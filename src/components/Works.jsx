@@ -13,7 +13,8 @@ const Works = () => {
             key={work.title}
             imgUrl={work.imgUrl}
             title={work.title}
-            tech={work.tech}  
+            tech={work.tech}
+            workUrl={work.workUrl}  
           ></WorkItem>
         ))}
       </div>
