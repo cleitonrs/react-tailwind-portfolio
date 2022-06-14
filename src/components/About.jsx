@@ -10,7 +10,7 @@ const About = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odit, ut vitae laborum aut doloremque ipsa excepturi, nemo officiis placeat expedita numquam. Porro consequatur neque assumenda, voluptatibus quaerat fuga? Quo.
         </p>
         <a href="mailto:rscleitonrs@gmail.com"
-          className='block mt-3 text-md md:text-lg font-regular text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'
+          className='block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'
         >rscleitonrs@gmail.com</a>
       </div>
       
