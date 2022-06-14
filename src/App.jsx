@@ -1,10 +1,11 @@
 import React from "react"
+import HeroSection from "./components/HeroSection"
 
 function App() {
   
   return (
-    <div className="App">
-      <h1 className="text-5xl ">Hello World</h1>
+    <div className='font-inter'>
+      <HeroSection />
     </div>
   )
 }
