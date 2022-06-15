@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import Services from "./components/Services"
 import Works from "./components/Works"
+import { FaSun, FaMoon } from 'react-icons/fa'
 
 function App() {
   const [theme, setTheme] = useState(null)
@@ -35,9 +36,10 @@ function App() {
       <button
        type="button"
        onClick={handleThemeSwitch}
-       className="fixed z-10 right-2 top-2 bg-indigo-500 text-lg p-1 rounded-md  " 
+       className="fixed z-10 right-2 top-2 bg-slate-500 text-lg p-2 rounded-full  " 
       >
-        {theme === 'dark' ? '🌙' : '🌞'}
+        {theme === 'dark' ? <FaMoon className="w-full h-full text-white"></FaMoon>  : <FaSun className="w-full h-full text-white"></FaSun>}
+        
       </button>
       <div className='font-inter bg:white dark:bg-slate-900'>
         <div className='max-w-5xl mx-auto w-11/12'>
