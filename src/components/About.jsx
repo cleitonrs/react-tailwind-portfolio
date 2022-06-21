@@ -7,7 +7,7 @@ const About = () => {
       <div className='w-full md:w-6/12'>
         <SectionTitle>About Me</SectionTitle>
         <p className='text-md text-gray-600 dark:text-gray-300'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odit, ut vitae laborum aut doloremque ipsa excepturi, nemo officiis placeat expedita numquam. Porro consequatur neque assumenda, voluptatibus quaerat fuga? Quo.
+          I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.
         </p>
         <a href="mailto:rscleitonrs@gmail.com"
           className='block mt-3 text-md md:text-lg  text-gray-700 dark:text-gray-300 underline hover:text-indigo-500 dark:hover:text-indigo-500'
